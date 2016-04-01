@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#f4f8f9;
+	}
+.slogan a{display:block;height:320px;}
+
+.content{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+.content .nav-tab{
+	text-align:center;
+	}
+
+.content .nav-tab ul{
+	border:1px solid #cccccc;
+	border-radius:5px;
+	margin:55px 0;
+	display: inline-block;
+	}
+.content .nav-tab ul li{
+	float:left;
+	padding:12px 40px;
+	font-size:14px;
+	cursor:pointer;
+	}
+
+.content .nav-tab ul li:first-child{
+	border-radius:5px 0 0 5px;
+	}
+.content .nav-tab ul li:last-child{
+	border-radius:0 5px 5px 0;
+	}
+.content .nav-tab ul .active{
+    color:#FFF;
+	background-color:#0386ca;
+	cursor: auto;
+	}
+.content .nav-tab ul li .icon-template , .content .container ul li a .icon-template{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background:url(../imgs/icon-template.png) no-repeat;
+	vertical-align:bottom;
+	}
+.content .nav-tab ul li .pc-template{
+	background-position:0 -20px;
+	}
+.content .nav-tab ul li .phone-template{
+	background-position:0 -60px;
+	}
+.content .nav-tab ul li.active .pc-template{
+	background-position:0 0;
+	}
+.content .nav-tab ul li.active .phone-template{
+	background-position:0 -40px;
+	}
+	
+.content .container{
+	margin-bottom:70px;
+	}
+.content .container ul{
+	width:1020px;
+	display:none;
+	/*margin-bottom:70px;*/
+	}
+.content .container ul li{
+	float:left;
+	width:233px;
+	margin-right:20px;
+	margin-bottom:30px;
+	background-color:#fff;
+	border:1px solid #eee;
+	}
+	
+.content .container ul li:hover{
+	border-color:#ccc; 
+	box-shadow:0px 0px 8px #ccc;
+	}	
+
+.content .container ul li a{
+	display:block;
+	}
+.content .container ul li a img{
+	width:100%;
+	height:auto;
+	display:block;
+	}
+.content .container ul li a p{
+	color:#999;
+	font-family:'Microsoft yahei';
+	height:20px;
+	line-height:20px;
+	margin:10px 10px;
+	}
+.content .container ul li a .praise{
+	background-position:0 -80px;
+	}
+.content .container ul li a .browse{
+	background-position:0 -100px;
+	}
+.content .container ul li a span{
+	font-size:14px;
+	color:#666;
+	}
+.content .container ul li a em{
+	float:right;
+	}
+	
+/*分页*/
+.pages {
+    height: 24px;
+    text-align: center;
+    font-family: Arial;
+    margin: 10px 0;
+}
+.pages span, .pages a {
+    display: inline-block;
+    padding: 0 8px;
+    border-radius: 2px;
+    height: 22px;
+    line-height: 22px;
+    margin: 0 1px;
+    font-size: 12px;
+    border: 1px solid #C1D1EC;
+    background-color: #e6eef7;
+    color: #8BAADC;
+}
+/*.pages-gray span {
+    border-color: #E2E2E2;
+    background: #F5F5F5;
+    color: #aaa;
+}*/
+.pages .prev, .pages .next {
+    font-family: '宋体';
+}
+.pages-gray a.active {
+ /*   -moz-box-shadow: inset 0px 1px 0px 0px #FFF;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #FFF;
+    box-shadow: inset 0px 1px 0px 0px #FFF;*/
+    background: #2497f0;
+  /*  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eeeeee), color-stop(1, #c2c2c2));
+    background: -moz-linear-gradient(top, #eeeeee 5%, #c2c2c2 100%);
+    background: -webkit-linear-gradient(top, #eeeeee 5%, #c2c2c2 100%);
+    background: -o-linear-gradient(top, #eeeeee 5%, #c2c2c2 100%);
+    background: -ms-linear-gradient(top, #eeeeee 5%, #c2c2c2 100%);
+    background: linear-gradient(to bottom, #eeeeee 5%, #c2c2c2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#c2c2c2',GradientType=0);*/
+    text-shadow: 0px 1px 0px #ccc;
+    border: 1px solid #0386ca;
+    color: #fff;
+}
+
+/*模板详情*/
+
+.boder{
+	border-bottom:1px solid #ddd;
+	}
+.title{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:20px 0;
+	height:30px;
+	line-height:30px;
+	
+	}
+.title .p1{
+	float:left;
+	font-size:12px;
+	font-family:'SimSun';
+	}
+.title .p1 a{
+	color:#fff;
+	padding:6px 12px;
+	background-color:#0099cc;
+	border-radius:5px;
+	}
+.title .p1 a:hover{
+	color:#fff;
+	background-color:#06A7DC;
+	}
+.title p span{
+	font-size:24px;
+	font-family:'Microsoft YaHei';
+	color:#666;
+	}
+.title .p2{
+	float: right;
+	display: inline;
+}
+
+.detail-content{
+	width:100%;
+	min-height:100%;
+	border:0;
+	}

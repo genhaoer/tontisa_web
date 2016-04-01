@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* CSS Document */
+.advantage{
+	width:100%;
+	background-color:#FFF;
+	padding-bottom:77px;
+	}
+.advantage-inner{
+	width:1120px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.title-advantage{
+	font-size:36px;
+	color:#666666;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	padding:75px 0;
+	}
+.advantage-content{
+	width:1120px;
+	overflow:hidden;
+	}
+.advantage-content dl{
+	width:373px;
+	height:220px;
+	float:left;
+	/*margin-right:35px;*/
+	}
+.advantage-content dl dt{
+	font-size:18px;
+	font-weight:500;
+	color:#666666;
+	}
+.advantage-content dl dd{
+	height:22px;
+	line-height:22px;
+	padding-left:72px;
+	color:#999999;
+	font-size:13px;
+	}
+.advantage-content dl dd b{
+	width:12px;
+	height:12px;
+	line-height:12px;
+	text-align:center;
+	margin-right:3px;
+	}
+.advantage-icon{
+	display: inline-block;
+	width:56px;
+	height:56px;
+	background-image:url(../imgs/icon-advantage.fw.png);
+	background-repeat:no-repeat;
+	vertical-align:middle;
+	margin-right:16px;
+	}
+.icon-standard{
+	background-position:0 0;
+	}
+.icon-Integrate{
+	background-position:0 -56px;
+	}
+.icon-competence{
+	background-position:0 -112px;
+	}
+.icon-list{
+	background-position:0 -168px;
+	}
+.icon-cost{
+	background-position:0 -224px;
+	}
+.icon-4n{
+	background-position:0 -280px;
+	}
+.icon-all{
+	background-position:0 -336px;
+	}
+.icon-mutual{
+	background-position:0 -392px;
+	}
+.icon-web{
+	background-position:0 -448px;
+	}
+
+/*icon-nav-taberp*/
+.icon-nav-taberp{
+	display:inline-block;
+	width:17px;
+	height:17px;
+	background-image:url(../imgs/iocnav_tab17.fw.png);
+	background-repeat:no-repeat;
+	vertical-align:text-bottom;
+	}
+.icon-contrl-erp{
+	background-position:0 0;
+	}
+.icon-sales-erp{
+	background-position:-17px 0;
+	}
+.icon-productor-erp{
+	background-position:-34px 0;
+	}
+.icon-resources-erp{
+	background-position:-51px 0;
+	}
+.icon-coin-erp{
+	background-position:-68px 0;
+	}
+.icon-count-erp{
+	background-position:-85px 0;
+	}
+.icon-docking-erp{
+	background-position:-102px 0;
+	}
+.icon-system-erp{
+	background-position:-119px 0;
+	}
+.icon-web-erp{
+	background-position:-136px 0;
+	}
+
+
+.nav-tab ul li.active .icon-contrl-erp{
+	background-position:0 -17px;
+	}
+.nav-tab ul li.active .icon-sales-erp{
+	background-position:-17px -17px;
+	}
+.nav-tab ul li.active .icon-productor-erp{
+	background-position:-34px -17px;
+	}
+.nav-tab ul li.active .icon-resources-erp{
+	background-position:-51px -17px;
+	}
+.nav-tab ul li.active .icon-coin-erp{
+	background-position:-68px -17px;
+	}
+.nav-tab ul li.active .icon-count-erp{
+	background-position:-85px -17px;
+	}
+.nav-tab ul li.active .icon-docking-erp{
+	background-position:-102px -17px;
+	}
+.nav-tab ul li.active .icon-system-erp{
+	background-position:-119px -17px;
+	}
+.nav-tab ul li.active .icon-web-erp{
+	background-position:-136px -17px;
+	}
+
+
+
+.container-bg-img a{display:block;height:500px;}
+
+.container-bottom{
+	
+	}	
+.section-bottom{
+	width:100%;
+	}
+.bg-bottom{
+	background-color:#ffffff;
+	}
+.inner-bottom{
+	width:1120px;
+	height:630px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	}
+.desc-bon{
+	width:400px;
+	position:absolute;
+	left:720px;
+	top:240px;
+	}
+.section-bon-h1{
+	font-weight:normal;
+	font-size:30px;
+	line-height:55px;
+	color:#666666;
+	}
+.section-bon-p{
+	font-size:16px;
+	color:#999999;
+	line-height:26px;
+	}
+.section-bon-img{
+	width:660px;
+	position:relative;
+	}
+.section-bon{
+	position:absolute;
+	top:3px;
+	left:5px;
+	width:652px;
+	height:372px;
+	overflow:hidden;
+	}
+.section-bon-img ul li{
+	width:652px;
+	height:372px;
+	display:block;
+	overflow:hidden;
+	}
+.img-position{
+	position:absolute;
+	left:0;
+	top:120px;
+	}
+.section-bon-shadow{
+	position:absolute;
+	left:4px;
+	bottom:-120px;
+	}

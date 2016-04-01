@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+.slogan a{display:block;height:320px;}
+
+/*container*/
+.container{
+	width:100%;
+	background:#f4f8f9;
+	}
+.nav-tab{
+	width:967px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:5px;
+	padding-top:77px;
+	/*margin-bottom:60px;*/
+	}
+.nav-tab ul{
+	}
+.nav-tab ul li{
+	border:1px solid #e9eef1;
+	border-right:0px;
+	float:left;
+	padding:0 38px;
+	font-size:16px;
+	height:40px;
+	line-height:40px;
+	background-color:#FFF;
+	cursor:pointer;
+	}
+.nav-tab ul li:first-child{
+	border-radius:5px 0 0 5px;
+}
+.nav-tab ul li:last-child{
+	border-radius:0 5px 5px 0;
+}
+.nav-tab ul li.active{
+	color:#FFF;
+	cursor:pointer;
+	background-color:#0386ca;
+	}
+.nav-tab ul li.active .icon-contrl{
+	background-position:0 -20px;
+	}
+.nav-tab ul li.active .icon-sales{
+	background-position:-20px -20px;
+	}
+.nav-tab ul li.active .icon-operating{
+	background-position:-40px -20px;
+	}
+.nav-tab ul li.active .icon-coin{
+	background-position:-60px -20px;
+	}
+.nav-tab ul li.active .icon-admin{
+	background-position:-80px -20px;
+	}
+.nav-tab ul li.active .icon-system{
+	background-position:-100px -20px;
+	}
+.nav-tab ul li.active .icon-count{
+	background-position:-120px -20px;
+	}
+.nav-tab ul li.active .icon-resources{
+	background-position:-140px -20px;
+	}
+.icon-nav-tab{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background-image:url(../imgs/iocnav_tab.png);
+	background-repeat:no-repeat;
+	vertical-align:text-bottom;
+	}
+	
+.icon-contrl{
+	background-position:0 0;
+	}
+.icon-sales{
+	background-position:-20px 0;
+	}
+.icon-operating{
+	background-position:-40px 0;
+	}
+.icon-coin{
+	background-position:-60px 0;
+	}
+.icon-admin{
+	background-position:-80px 0;
+	}
+.icon-system{
+	background-position:-100px 0;
+	}
+.icon-count{
+	background-position:-120px 0;
+	}
+.icon-resources{
+	background-position:-140px 0;
+	}
+/*-----section-----*/
+.content{
+	width:100%;
+	display:none;
+}
+.section{
+	width:100%;
+	}
+.inner{
+	width:1120px;
+	height:595px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	
+	}
+.desc{
+	width:320px;
+	}
+.animate{
+	position:absolute;
+	}
+	
+	
+	/*llll*/
+.section-h1{
+	font-weight:normal;
+	font-size:24px;
+	line-height:45px;
+	color:#666666;
+	
+	}
+.section-p{
+	font-size:16px;
+	color:#999999;
+	line-height:26px;
+	}
+.section-img{
+	width:702px;
+	position:relative;
+	}
+	
+
+.section-shadow{
+	position:absolute;
+	bottom:-45px;
+	left:0;
+	}
+
+.bgcolor{
+	background-color:#FFF;
+	}
+

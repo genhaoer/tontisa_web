@@ -1,0 +1,492 @@
+body{
+	font-family: "Microsoft YaHei"
+}
+/*container*/
+.section-1{
+	background: url(../imgs/section1_bg.jpg) no-repeat center center;
+}
+.container{
+	width: 1000px;
+	height: 668px;
+	text-align: center;
+	position: absolute;
+	left: 0;top: 0;right: 0;bottom: 0;
+	margin: auto;
+	top: 150%;
+	opacity: 0;
+	transition:all 1s;
+	-webkit-transition:all 1s;
+	/*background-color: #eee;*/
+}
+.container-animate{
+	opacity: 1;
+	top: 0;
+}
+.text-1{
+	font-size: 36px;
+	color: #fff;
+	width: 505px;
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	margin-left:-252px;
+	font-weight:300;
+}
+.text-2{
+	font-size: 36px;
+	color: #fff;
+	width: 255px;
+	position: absolute;
+	top: 22%;
+	left: 50%;
+	margin-left:-125px;
+	font-weight:normal;
+}
+.text-2 .dot{
+	font-size: 36px;
+	margin: 0 5px;
+}
+.text-3{
+	font-size: 60px;
+	color: #fff;
+	width: 960px;
+	position: absolute;
+	top: 31%;
+	left: 50%;
+	margin-left:-480px;
+	font-weight:normal;
+}
+.text-4{
+	color: #fff;
+	width: 514px;
+	font-size: 18px;
+	position: absolute;
+	top: 48.3%;
+	left: 50%;
+	margin-left:-230px;
+	font-weight:bold;
+}
+.text-4 span{
+	text-align: center;
+	display: block;
+	float: left;
+	font-weight: normal;
+}
+.text-5{
+	color: #fff;
+	width: 146px;
+	font-size: 18px;
+	position: absolute;
+	bottom: 24.5%;
+	left: 50%;
+	margin-left:-73px;
+	font-weight:normal;
+}
+.btn-green{
+	width: 146px;
+	height: 42px;
+	text-align: center;
+	background-color: #28bc16;
+	color: #fff;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	font-family: "Microsoft YaHei";
+}
+.icon37 {
+	width: 37px;
+	height: 37px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	background-image: url(../imgs/icon_list.png);
+	background-repeat: no-repeat;
+}
+.icon-1{
+	background-position: -90px 0;
+}
+.icon-2{
+	background-position: -131px 0;
+	width: 38px;
+}
+.icon-3{
+	background-position: -1px 0;
+}
+.icon-4{
+	background-position: -45px 0;
+}
+.toolbar{
+	width: 260px;
+	height: 52px;
+	position: fixed;
+	right: 90px;
+	bottom: 25px;
+	z-index: 999;
+}
+.toolbar span{
+	position: relative;
+	width: 42px;
+	height: 42px;
+	line-height: 21px;
+	display: block;
+    float: left;
+    margin: 5px;
+}
+.toolbar span a{
+	color: #fff;
+}
+.toolbar span a:hover{
+	color: #fff;
+}
+.icon42{
+	width: 42px;
+	height: 32px;
+	display: block;
+	float: left;
+	margin: 5px;
+	font-size: 12px;
+	line-height: 16px;
+    padding: 5px 0;
+    letter-spacing: 2px;
+	text-align: center;
+	background-image: url(../imgs/icon_list.png);
+	background-repeat: no-repeat;
+}
+.icon42-hover{
+	display: block;
+	background-color: #15526E;
+	background-color: rgba(0,0,0,.5);
+	background-image: none !important;
+	border-radius: 5px;
+}
+.signup-icon{
+	background-position: -198px -46px;
+}
+.chat-icon{
+	background-position: -48px -46px;
+}
+.qqchat-icon{
+	background-position: -148px -46px;
+}
+.weixin-icon{
+	background-position: 0 -46px;
+}
+.gotop-icon{
+	background-position: -96px -46px;
+}
+.triangle-down{
+	display: block;
+	position: absolute;
+	bottom: -12px;
+	left: 70px;
+	height: 0;
+	width: 0;
+	border-width: 7px;
+	border-style: solid dashed dashed dashed;
+	border-color: #fff transparent transparent transparent;
+}
+.icon-qq{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../imgs/icon_qq.png);
+	margin: -5px 5px;
+}
+.tooltip{
+	display: none;
+	position: absolute;
+	bottom: 42px;
+	left: -52px;
+	min-width:140px;
+	font-size: 12px;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.tooltip-top{
+	margin-bottom: 10px;
+}
+.tooltip-top li{
+	line-height: 18px;
+	padding: 5px 0;
+	border-bottom:1px solid #ddd;
+}
+.tooltip-top li em{
+	color: #2497f0;
+}
+.tooltip-bottom li{
+	line-height: 18px;
+	color: #2497f0;
+}
+
+
+#weixin .tooltip img{
+	display: block;
+	width: 140px;
+}
+.tooltip-con{
+	line-height: 20px;
+}
+.tooltip-con tr{
+	height: 30px;
+	line-height: 30px;
+}
+.tooltip-con tr td a{
+	color: #666;
+}
+.tooltip-con tr td a:hover{
+	color: #2497f0;
+}
+
+/*section-2*/
+.section-2 .text-1{
+	top: 10%;
+	color: #666;
+}
+.text-1 strong{
+	font-size: 38px;
+	color: #2497f0;
+}
+.table{
+	position: absolute;
+	top: 0;left: 0;right: 0;bottom: 0;
+	width: 1000px;
+	margin:auto;
+	margin-top: 18%;
+}
+.section-2 table{
+	width: 1000px;
+	height: 420px;
+	margin: 0 auto;
+}
+.section-2 table td{
+	width: 
+}
+.table-box{
+	width: 390px;
+	margin: 0 auto;
+}
+.table-content-left{
+	float: left;
+}
+.table-content-right{
+	float: right;
+}
+.table-content-left h3{
+	font-size: 30px;
+	text-align: left;
+	margin: 15px 0;
+}
+.table-content-left p{
+	font-size: 16px;
+	text-align: left;
+}
+.img-right{
+	float: left;
+}
+
+/*section-3*/
+
+.section-3 table{
+	width: 820px;
+	height: 420px;
+	margin: 0 auto;
+}
+.section-3 .text-1{
+	top: 13%;
+	color: #333;
+}
+.table-icon{
+	float: left;
+}
+.table-content{
+	float: left;
+	width: 275px;
+	text-align: left;
+	margin-left: 30px;
+}
+.table-content h4{
+	font-size: 18px;
+}
+.icon56{
+	width: 56px;
+	height: 56px;
+	display: block;
+	float: left;
+	margin: 5px;
+	text-align: center;
+	background-image: url(../imgs/icon_list.png);
+	background-repeat: no-repeat;
+}
+.power-icon{
+	background-position: -62px -94px;
+}
+.change-icon{
+	background-position: -185px -94px;
+}
+.office-icon{
+	background-position: -1px -94px;
+}
+.data-icon{
+	background-position: -245px -94px;
+}
+.mobile-icon{
+	background-position: -306px -94px;
+}
+.branch-icon{
+	background-position: -124px -94px;
+}
+.section-3 .btn{
+	position: absolute;
+	top:0;right: 0;left: 0;bottom: 0;
+	width: 140px;
+	height: 52px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+/*section-4*/
+.section-4 .text-1{
+	top: 14%;
+	color: #666;
+}
+.text-6{
+	color: #666;
+	width: 514px;
+	font-size: 16px;
+	position: absolute;
+	top: 23.7%;
+	left: 50%;
+	margin-left:-230px;
+	font-weight:bold;
+}
+.section-4 .content{
+	position: absolute;
+	top: 0;left: 0;bottom: 0;right: 0;
+	margin:auto;
+	width: 810px;
+	height: 388px;
+	margin-top: 28%;
+}
+.section-4 .content .content-left{
+	width: 330px;
+}
+.section-4 .content .content-right{
+	width: 380px;
+}
+.li-left h3{
+	font-size: 24px;
+}
+.li-left p{
+	font-size: 14px;
+}
+.mb70{
+	margin-bottom: 70px;
+}
+.icon-left{
+	height: 95px;
+	float: left;
+	margin-right: 20px;
+}
+.icon58{
+	display: inline-block;
+	width: 58px;
+	height: 58px;
+	cursor: pointer;
+	background: url(../imgs/icon_list.png);
+	background-repeat: no-repeat;
+}
+.app-icon{
+	background-position: -124px -158px;
+}
+.phone-icon{
+	background-position: 0 -158px;
+}
+.app-icon-active{
+	background-position: -185px -158px;
+}
+.phone-icon-active{
+	background-position: -61px -158px;
+}
+#phone-pic{
+	width: 380px;
+	height: 482px;
+	background: url(../imgs/phone1.png) no-repeat;
+}
+
+/*section-5*/
+.section-5{
+	background: url(../imgs/section5_bg.jpg) no-repeat center center;
+}
+.section-5 .text-1{
+	top: 12%;
+	font-size: 40px;
+}
+.dot{
+	margin: 0 3px;
+	font-size: 18px;
+}
+.section-5 .container {
+	width: 1000px;
+	position: relative;
+	margin: 0 auto;
+}
+.section-5 .container .content{
+	float: left;
+	position: absolute;
+	left: 10px;
+	top: 32%;
+	text-align: left;
+	width: 336px;
+	color: #fff;
+}
+.section-5 .container .content h4{
+	font-size: 18px;
+}
+.section-5 .container .content p{
+	font-size: 14px;
+	line-height: 1.4em;
+	margin: 8px 0;
+}
+.safepc-icon{
+	width: 562px;
+	height: 500px;
+	position: absolute;
+	top: 25%;
+	right: 10px;
+	background: url(../imgs/safe_pc.png) no-repeat;
+}
+
+/*section-5*/
+.logo-list{
+	width: 780px;
+	position: absolute;
+	left: 0;top: 0;bottom: 0;right: 0;
+	margin: auto;
+	margin-top: 4%;
+}
+.logo-list img{
+	display: block;
+	width: 780px;
+}
+.decription{
+	position: absolute;
+	width: 180px;
+	height: 130px;
+	left: 0;top: 0;bottom: 0;right: 0;
+	margin: auto;
+	margin-top: 28%;
+}
+.decription p{
+	text-align: center;
+	font-size: 36px;
+	color: #666;
+}
+.decription p em{
+	font-size: 48px;
+	color: #fe963b;
+}
